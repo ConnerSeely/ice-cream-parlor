@@ -1,0 +1,74 @@
+header {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: lightcoral;
+    background-color: teal;
+    text-align: center;
+}
+
+footer {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: lightcoral;
+    background-color: teal;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
+    background-color: lightcoral;
+}
+
+.object-cover {
+    object-fit: cover;
+}
+
+.action {
+    cursor: pointer;
+    transition: all .25s ease;
+}
+
+.action:hover {
+    transform: scale(1.02);
+}
+
+
+.fab {
+    border-radius: 5%;
+    position: fixed;
+    top: 3em;
+    right: 1em;
+    z-index: 2
+}
+
+.offcanvas-header {
+    background-color: teal;
+    color: lightcoral;
+}
+
+.offcanvas-body {
+    background-color: lightcoral;
+    color: teal;
+}
+
+.btn {
+    background-color: teal;
+}
+
+.IceCream-card {
+    background-color: teal;
+    color: lightcoral;
+}
+
+.Toppings-card {
+    background-color: teal;
+    color: lightcoral;
+}
+
+.Vessels-card {
+    background-color: teal;
+    color: lightcoral;
+}
